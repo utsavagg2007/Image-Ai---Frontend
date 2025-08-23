@@ -1,0 +1,21 @@
+<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sexyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7A00FF"/>
+      <stop offset="100%" stop-color="#FF4DFF"/>
+    </linearGradient>
+    <radialGradient id="highlight" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <!-- Vibrant gradient orb -->
+  <circle cx="15.5" cy="15.5" r="15.5" fill="url(#sexyGrad)"/>
+  <!-- Glossy highlight for premium look -->
+  <circle cx="15.5" cy="15.5" r="15.5" fill="url(#highlight)"/>
+  <!-- Spark effect (stylized) -->
+  <path d="M22 10L24 12L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Subtle orb reflection -->
+  <circle cx="12" cy="19" r="3" fill="white" opacity="0.9"/>
+</svg>
